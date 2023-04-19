@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Koszyk internetowy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sklep internetowy</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img        class="card-img-top" src="https://picsum.photos/200" alt="Obrazek produktu">
+      <div class="card-body">
+        <h5 class="card-title">Produkt 1</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mauris in enim efficitur, quis varius tellus ullamcorper.</p>
+        <p class="card-text">$19.99</p>
+        <button class="btn btn-primary add-to-cart" data-id="1" data-name="Produkt 1" data-price="19.99">Dodaj do koszyka</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4">
+      <img class="card-img-top" src="https://picsum.photos/200" alt="Obrazek produktu">
+      <div class="card-body">
+        <h5 class="card-title">Produkt 2</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mauris in enim efficitur, quis varius tellus ullamcorper.</p>
+        <p class="card-text">$24.99</p>
+        <button class="btn btn-primary add-to-cart" data-id="2" data-name="Produkt 2" data-price="24.99">Dodaj do koszyka</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-4">
+      <img class="card-img-top" src="https://picsum.photos/200" alt="Obrazek produktu">
+      <div class="card-body">
+        <h5 class="card-title">Produkt 3</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod mauris in enim efficitur, quis varius tellus ullamcorper.</p>
+        <p class="card-text">$39.99</p>
+        <button class="btn btn-primary add-to-cart" data-id="3" data-name="Produkt 3" data-price="39.99">Dodaj do koszyka</button>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+  <div class="cart">
+    <div class="cart-header">
+      <span>Koszyk</span>
+      <button class="clear-cart btn btn-secondary"><i class="fas fa-trash"></i> Wyczyść koszyk</button>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <span class="cart-total-label">Suma:</span>
+      <span class="cart-total-price">$0</span>
+    </div>
+    <button class="checkout btn btn-success"><i class="fas fa-check"></i> Zapłać</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
